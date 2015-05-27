@@ -11,3 +11,12 @@ The code examples were copied (and completed where necessary) from "Test-Driven 
 His blog is at https://rentes.github.io
 
 --------------------
+
+###Table of Contents
+[Chapter 1: Getting Started with Test-Driven Development](#Chap1)
+
+
+<div id='Chap1' />
+## Getting Started with Test-Driven Development
+
+Chapter 1 introduces the concept of TDD, how it is different from other forms of unit and integration testing, and the Red-Green-Refactor workflow. After that, we write out first test, using Python's already bundled unittest framework. On the final pages, we reorganize the project structure (which is suitable for larger and more complex projects), and update our testing procedure to run again our test suite after the project reorganization.
