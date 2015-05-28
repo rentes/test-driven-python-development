@@ -60,4 +60,6 @@ target/
 .idea/
 
 # PyDev
+.project
+.pydevproject
 .settings/
