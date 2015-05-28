@@ -6,7 +6,8 @@ from ..stock import Stock
 
 
 class StockTest(unittest.TestCase):
-    """Tests that a price of a new Stock should be None"""
+    """The Stock Test suite"""
     def test_price_of_a_new_stock_class_should_be_None(self):
+        """Tests that a price of a new Stock should be None"""
         stock = Stock("GOOG")
         self.assertIsNone(stock.price)
