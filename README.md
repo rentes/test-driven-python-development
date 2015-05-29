@@ -14,6 +14,7 @@ His blog is at https://rentes.github.io
 
 ###Table of Contents
 [Chapter 1: Getting Started with Test-Driven Development](#Chap1)
+
 [Chapter 2: Red-Green-Refactor - The TDD Cycle](#Chap2)
 
 <div id='Chap1' />
