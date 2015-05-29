@@ -12,6 +12,7 @@ class PriceRuleTest(unittest.TestCase):
     """The PriceRule Test suite"""
     @classmethod
     def setUpClass(cls):
+        """This method is called before every test method below is executed"""
         goog = Stock("GOOG")
         goog.update(datetime(2015, 5, 28), 11)
         cls.exchange = {"GOOG": goog}
