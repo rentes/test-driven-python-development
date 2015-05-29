@@ -24,3 +24,17 @@ class PriceRule:
     def depends_on(self):
         """Returns which stocks updates the rule depends on"""
         return {self.symbol}
+
+
+class AndRule:
+    """
+    The AndRule is used when we want to compose two or more rules together
+    """
+    def __init__(self, *args):
+        self.rules = args
+
+    def matches(self, exchange):
+        """
+        Returns True or False depending on whether all rules are matched or not
+        """
+        return all([rule.matches(exchange) for rule in self.rules])
