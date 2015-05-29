@@ -14,9 +14,14 @@ His blog is at https://rentes.github.io
 
 ###Table of Contents
 [Chapter 1: Getting Started with Test-Driven Development](#Chap1)
-
+[Chapter 2: Red-Green-Refactor - The TDD Cycle](#Chap2)
 
 <div id='Chap1' />
 ## Getting Started with Test-Driven Development
 
 Chapter 1 introduces the concept of TDD, how it is different from other forms of unit and integration testing, and the Red-Green-Refactor workflow. After that, we write out first test, using Python's already bundled unittest framework. On the final pages, we reorganize the project structure (which is suitable for larger and more complex projects), and update our testing procedure to run again our test suite after the project reorganization.
+
+<div id='Chap2' />
+## Red-Green-Refactor - The TDD Cycle
+
+Chapter 2 starts going further into the definition of the TDD as being an explicit requirements translation into a test. Put it simply, in TDD tests are the software requirements. In this way, we can be assured that whenever the implementation is drifting away from the set requirements, the tests will always fail. This is a great advantage of using TDD. Along this chapter we use the assert family of methods to complete our tests, the Arrange-Act-Assert pattern, what brittle tests are and ways to overcome them. Finally we do a few basic refactorings to keep the code simple and DRY.
