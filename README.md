@@ -21,6 +21,7 @@ His blog is at https://rentes.github.io
 - [Chapter 6: Maintaining Your Test Suite](#Chap6)
 - [Chapter 7: Executable Documentation with doctest](#Chap7)
 - [Chapter 8: Extending unittest with nose2](#Chap8)
+- [Chapter 9: Unit Testing Patterns](#Chap9)
 
 <div id='Chap1' />
 ## Getting Started with Test-Driven Development
@@ -61,3 +62,8 @@ On Chapter 7 we see how to incorporate tests in the code documentation using Pyt
 ## Extending unittest with nose2
 
 Chapter 8 teaches us how to use third-parties tools to extend our default test runner, by using nose2 powerful features and plugin suite. nose2 can be used to write new type of tests such as function tests, parameterized tests, generated tests, and layer-based tests as well. It also supports configuration files, so it can be used between developers, and can be integrated with automation tools. This chapter also shows how to use our tests with code coverage, which can make really easy to identify if there are lines or branches of code that do not have tests, or which modules have lesser test coverage.
+
+<div id='Chap9' />
+## Unit Testing Patterns
+
+This chapter takes a look at some more advanced features provided by the Python unittest module. We see how to speed up tests and how we can run specific subsets of tests using patterns. This chapter shows how to write subsets of tests based on the test attributes, how to skip tests, how to mark tests as expected failures, and how to write data-driven tests. Next it teaches us some mocking patterns, starting with implementing spies, validating a sequence of calls across multiple mocks, using generator functions and mocking with mutable arguments.
