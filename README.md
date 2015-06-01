@@ -19,6 +19,7 @@ His blog is at https://rentes.github.io
 - [Chapter 4: Using Mock Objects to Test Interactions](#Chap4)
 - [Chapter 5: Working with Legacy Code](#Chap5)
 - [Chapter 6: Maintaining Your Test Suite](#Chap6)
+- [Chapter 7: Executable Documentation with doctest](#Chap7)
 
 <div id='Chap1' />
 ## Getting Started with Test-Driven Development
@@ -49,3 +50,8 @@ This chapter tells us how to deal with software projects which have no tests. Un
 ## Maintaining Your Test Suite
 
 Chapter 6 looks at ways to keep our code maintainable. It takes a closer look at this often forgot topic, and it teaches us to use docstrings, creating custom test class hierarchies, and fixtures, to make tests easier to understand. Finally, we learn how to use helper methods, custom assert matches, equality functions and matchers to make the code more readable.
+
+<div id='Chap7' />
+## Executable Documentation with doctest
+
+On Chapter 7 we see how to incorporate tests in the code documentation using Python's doctest module. This module allows one to specify examples inside the docstrings, run them and verify that they work. We see how to write doctests for methods, classes, modules, and also for packages. We also learn how to move package level doctests into a separate file and run them, along with maintaining the doctests by using the setUp and tearDown methods, and including them in our test suite. Finally, we see how to overcome the doctests limitations by using directives.
