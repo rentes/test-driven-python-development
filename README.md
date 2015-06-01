@@ -17,6 +17,7 @@ His blog is at https://rentes.github.io
 - [Chapter 2: Red-Green-Refactor - The TDD Cycle](#Chap2)
 - [Chapter 3: Code Smells and Refactoring](#Chap3)
 - [Chapter 4: Using Mock Objects to Test Interactions](#Chap4)
+- [Chapter 5: Working with Legacy Code](#Chap5)
 
 <div id='Chap1' />
 ## Getting Started with Test-Driven Development
@@ -37,3 +38,8 @@ Chapter 3 looks at some Code Smells we always want to avoid, and also explores r
 ## Using Mock Objects to Test Interactions
 
 On Chapter 4 we look at how we can use mock objects to test that interactions between multiple objects occurs as we planned to. We learn how to use the unittest.mock module provided by Python, which is a very powerful mocking framework, and a very easy to use as well, as this Chapter demonstrates. Finally, we see how to use patching for a more advancing mocking and we then put all of the mocking techniques into practice to achieve a more complex mocking example for our stock application. This chapter also makes the important distinction between mocks, stubs, fakes and spies. It's well worth a read, if you haven't used mocking before on your software projects.
+
+<div id='Chap5' />
+## Working with Legacy Code
+
+This chapter tells us how to deal with software projects which have no tests. Unfortunately, there are always pieces of code (if not always the whole project) that don't have tests. This chapter provides precious advice on how to change the legacy code to accomodate for Test-Driven Development and take the most out of this practice. We see how to use the Python Interactive shell (IPython) and the Python debugger (pdb) to understand how a legacy code works, and we also explore the functionality of many different techniques to write many more tests, such as: characterization tests, breaking dependencies, separating initialization from execution, using default values for parameters, stubbing local methods, using the Rope refactoring library and the extract method refactoring for this effect.
