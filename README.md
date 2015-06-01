@@ -16,6 +16,7 @@ His blog is at https://rentes.github.io
 - [Chapter 1: Getting Started with Test-Driven Development](#Chap1)
 - [Chapter 2: Red-Green-Refactor - The TDD Cycle](#Chap2)
 - [Chapter 3: Code Smells and Refactoring](#Chap3)
+- [Chapter 4: Using Mock Objects to Test Interactions](#Chap4)
 
 <div id='Chap1' />
 ## Getting Started with Test-Driven Development
@@ -30,4 +31,9 @@ Chapter 2 starts going further into the definition of the TDD as being an explic
 <div id='Chap3' />
 ## Code Smells and Refactoring
 
-Chapter 3 looks at some Code Smells we always want to avoid, and also explores refactoring patterns to fix them, step-by-step explaining each one, to easily build a test suite which is correct, simpler to read and that avoids the code smells detected at the start of this chapter. The DRY and Single Responsibility principles are also explained thoroughly along with other patterns, which makes this chapter an excellent read. Test-Driven Development and these Refactoring Principles should always be applied if possible to every programming project.
+Chapter 3 looks at some Code Smells we always want to avoid, and also explores refactoring patterns to fix them, step-by-step explaining each one, to easily build a test suite which is correct, simpler to read and that avoids the code smells detected at the start of this chapter. The DRY and Single Responsibility principles are also explained thoroughly along with other patterns, which makes this chapter an excellent read. Test-Driven Development and these Refactoring Principles should always be applied if possible to every software project.
+
+<div id='Chap4' />
+## Using Mock Objects to Test Interactions
+
+On Chapter 4 we look at how we can use mock objects to test that interactions between multiple objects occurs as we planned to. We learn how to use the unittest.mock module provided by Python, which is a very powerful mocking framework, and a very easy to use as well, as this Chapter demonstrates. Finally, we see how to use patching for a more advancing mocking and we then put all of the mocking techniques into practice to achieve a more complex mocking example for our stock application. This chapter also makes the important distinction between mocks, stubs, fakes and spies. It's well worth a read, if you haven't used mocking before on your software projects.
