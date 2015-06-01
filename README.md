@@ -20,6 +20,7 @@ His blog is at https://rentes.github.io
 - [Chapter 5: Working with Legacy Code](#Chap5)
 - [Chapter 6: Maintaining Your Test Suite](#Chap6)
 - [Chapter 7: Executable Documentation with doctest](#Chap7)
+- [Chapter 8: Extending unittest with nose2](#Chap8)
 
 <div id='Chap1' />
 ## Getting Started with Test-Driven Development
@@ -54,4 +55,7 @@ Chapter 6 looks at ways to keep our code maintainable. It takes a closer look at
 <div id='Chap7' />
 ## Executable Documentation with doctest
 
-On Chapter 7 we see how to incorporate tests in the code documentation using Python's doctest module. This module allows one to specify examples inside the docstrings, run them and verify that they work. We see how to write doctests for methods, classes, modules, and also for packages. We also learn how to move package level doctests into a separate file and run them, along with maintaining the doctests by using the setUp and tearDown methods, and including them in our test suite. Finally, we see how to overcome the doctests limitations by using directives.
+On Chapter 7 we see how to incorporate tests in the code documentation using Python's doctest module. This module allows one to specify examples inside the docstrings, run them and verify that they work. We see how to write doctests for methods, classes, modules, and also for packages. We also learn how to move package level doctests into a separate file and run them, along with maintaining the doctests by using the setup and teardown methods, and including them in our test suite. Finally, we see how to overcome the doctests limitations by using directives.
+
+<div id='Chap8' />
+## Extending unittest with nose2
