@@ -30,4 +30,3 @@ Chapter 2 starts going further into the definition of the TDD as being an explic
 <div id='Chap3' />
 ## Code Smells and Refactoring
 
-Chapter 3 looks at the some Code Smells we always want to avoid, and we explore more types of code refactoring.
