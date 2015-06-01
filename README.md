@@ -59,3 +59,5 @@ On Chapter 7 we see how to incorporate tests in the code documentation using Pyt
 
 <div id='Chap8' />
 ## Extending unittest with nose2
+
+Chapter 8 teaches us how to use third-parties tools to extend our default test runner, by using nose2 powerful features and plugin suite. nose2 can be used to write new type of tests such as function tests, parameterized tests, generated tests, and layer-based tests as well. It also supports configuration files, so it can be used between developers, and can be integrated with automation tools. This chapter also shows how to use our tests with code coverage, which can make really easy to identify if there are lines or branches of code that do not have tests, or which modules have lesser test coverage.
