@@ -30,3 +30,4 @@ Chapter 2 starts going further into the definition of the TDD as being an explic
 <div id='Chap3' />
 ## Code Smells and Refactoring
 
+Chapter 3 looks at some Code Smells we always want to avoid, and also explores refactoring patterns to fix them, step-by-step explaining each one, to easily build a test suite which is correct, simpler to read and that avoids the code smells detected at the start of this chapter. The DRY and Single Responsibility principles are also explained thoroughly along with other patterns, which makes this chapter an excellent read. Test-Driven Development and these Refactoring Principles should always be applied if possible to every programming project.
