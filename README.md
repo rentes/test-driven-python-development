@@ -71,3 +71,5 @@ This chapter takes a look at some more advanced features provided by the Python 
 
 <div id='Chap10' />
 ## Tools to Improve Test-Driven Development
+
+The final chapter of this book tells us how to use other invaluable third-party tools in our daily Test-Driven Development practice. We also take a look at integrating our test suite with build tools, packaging tools, continuous integration tools, documentation tools and the current Test-Driven Development IDE integration.
