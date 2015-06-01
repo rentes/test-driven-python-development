@@ -18,6 +18,7 @@ His blog is at https://rentes.github.io
 - [Chapter 3: Code Smells and Refactoring](#Chap3)
 - [Chapter 4: Using Mock Objects to Test Interactions](#Chap4)
 - [Chapter 5: Working with Legacy Code](#Chap5)
+- [Chapter 6: Maintaining Your Test Suite](#Chap6)
 
 <div id='Chap1' />
 ## Getting Started with Test-Driven Development
@@ -43,3 +44,8 @@ On Chapter 4 we look at how we can use mock objects to test that interactions be
 ## Working with Legacy Code
 
 This chapter tells us how to deal with software projects which have no tests. Unfortunately, there are always pieces of code (if not always the whole project) that don't have tests. This chapter provides precious advice on how to change the legacy code to accomodate for Test-Driven Development and take the most out of this practice. We see how to use the Python Interactive shell (IPython) and the Python debugger (pdb) to understand how a legacy code works, and we also explore the functionality of many different techniques to write many more tests, such as: characterization tests, breaking dependencies, separating initialization from execution, using default values for parameters, stubbing local methods, using the Rope refactoring library and the extract method refactoring for this effect.
+
+<div id='Chap6' />
+## Maintaining Your Test Suite
+
+Chapter 6 looks at ways to keep our code maintainable. It takes a closer look at this often forgot topic, and it teaches us to use docstrings, creating custom test class hierarchies, and fixtures, to make tests easier to understand. Finally, we learn how to use helper methods, custom assert matches, equality functions and matchers to make the code more readable.
