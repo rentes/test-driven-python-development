@@ -5,6 +5,7 @@ from stock_alerter.stock import Stock
 from datetime import datetime
 import unittest
 
+
 class StockTest(unittest.TestCase):
     """The Stock Test suite"""
     def setUp(self):
