@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """Stock Trend Test"""
 
-import unittest
-from ..stock import Stock
+
 from datetime import datetime
+import unittest
+from stock_alerter.stock import Stock
 
 
 class StockTrendTest(unittest.TestCase):

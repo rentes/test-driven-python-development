@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 """Price Rule Test"""
 
-import unittest
-from ..stock import Stock
-from ..rule import PriceRule
+from stock_alerter.stock import Stock
+from stock_alerter.rule import PriceRule
 from datetime import datetime
+import unittest
 from builtins import classmethod
-
 
 class PriceRuleTest(unittest.TestCase):
     """The PriceRule Test suite"""

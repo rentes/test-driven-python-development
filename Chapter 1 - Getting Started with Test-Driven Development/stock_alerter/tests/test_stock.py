@@ -2,7 +2,7 @@
 """Stock Alert Test"""
 
 import unittest
-from ..stock import Stock
+from stock_alerter.stock import Stock
 
 
 class StockTest(unittest.TestCase):

@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 """AndRule Test"""
 
-import unittest
-from ..stock import Stock
+from stock_alerter.stock import Stock
+from stock_alerter.rule import PriceRule, AndRule
 from datetime import datetime
-from ..rule import PriceRule, AndRule
-
+import unittest
 
 class AndRuleTest(unittest.TestCase):
     """The AndRule Test suite"""
