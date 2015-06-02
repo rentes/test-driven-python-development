@@ -7,6 +7,7 @@ from datetime import datetime
 import unittest
 from builtins import classmethod
 
+
 class PriceRuleTest(unittest.TestCase):
     """The PriceRule Test suite"""
     @classmethod

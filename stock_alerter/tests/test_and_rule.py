@@ -6,6 +6,7 @@ from stock_alerter.rule import PriceRule, AndRule
 from datetime import datetime
 import unittest
 
+
 class AndRuleTest(unittest.TestCase):
     """The AndRule Test suite"""
     @classmethod
