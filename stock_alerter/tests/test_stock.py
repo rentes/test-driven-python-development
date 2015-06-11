@@ -34,5 +34,11 @@ class StockTest(unittest.TestCase):
     def test_stock_price_should_give_the_latest_price(self):
         """After multiple updates, a Stock gives us the latest price"""
         self.goog.update(datetime(2015, 5, 28), price=10)
-        self.goog.update(datetime(2015, 5, 28), price=8.4)
+        self.goog.update(datetime(2015, 5, 29), price=8.4)
         self.assertAlmostEqual(8.4, self.goog.price, delta=0.0001)
+
+    def test_price_is_the_latest_even_if_updates_are_made_out_of_order(self):
+        """Tests updates which come out of order"""
+        self.goog.update(datetime(2015, 5, 29), price=8)
+        self.goog.update(datetime(2015, 5, 28), price=10)
+        self.assertEqual(8, self.goog.price)
